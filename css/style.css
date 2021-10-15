@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c0363;
+}
+
+#title {
+  background: #1a1a1a;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 99%;
+  height: 1000px;
+  margin: 5px auto 0 auto;
+  border-radius: 1%;
+}
+
+#header-text {
+  background: #1a1a1a;
+  padding: 2px;
+  text-align: center;
+  font-size: 50px;
+  margin: 50px 0 30px 0;
+  color: #e2cf29;
+  font-family: "Great Vibes", cursive;
+}
+
+#img-div {
+  background: #1a1a1a;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 700px;
+}
+
+#img-caption {
+  padding: 2px;
+  padding: 0 25px 0 25px;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  margin: auto 0 auto 0;
+  color: #e2cf29;
+  font-family: "Great Vibes", cursive;
+  font-size: 18px;
+}
+
+#img-div img {
+  margin-top: 50px;
+  width: 876px;
+  height: 540px;
+  align-self: center;
+  box-shadow: 1px 1px 5px 5px #e2cf29;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-div img:hover {
+  box-shadow: 1px 1px 5px 5px #2c0363;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.division-line-1 {
+  width: 20%;
+  height: 5px;
+  background: #2c0363;
+}
+
+.division-line-2 {
+  width: 35%;
+  height: 5px;
+  background: #2c0363;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  text-align: justify;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  font-family: "Playfair Display", serif;
+  color: #e2cf29;
+  font-size: 16px;
+  background: #1a1a1a;
+  border-radius: 1%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tribute-info ul {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  box-shadow: 1px 1px 5px 5px #e2cf29;
+  padding: 30px 40px 30px 10px;
+  border-radius: 1%;
+}
+
+#tribute-info li {
+  margin: 5px 0 5px 0;
+  margin-left: 60px;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+span {
+  font-weight: 900;
+}
+
+#article-info {
+  font-family: "Playfair Display", serif;
+  color: #e2cf29;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+
+#article-info a {
+  text-decoration: none;
+  color: #e2cf29;
+}
+
+@media (max-width: 500px) {
+  #tribute-info ul {
+    width: 95%;
+  }
+}
